@@ -17,7 +17,7 @@ a{
 	color: #7dcaed;
 }
 h1, h2, h3, h4, h5, h6 {
-	color:#ffe6c0;
+	color:#c0fdff;
 }
 
 .sites {
@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(0,0,0,.5);
 	color:white;
 	& a{
-		color:#7dcaed;
+		color:#edc67d;
 		&.sites-current{
-			color:#ffe6c0;
+			color:#c0fbff;
 		}
 	
 	}
@@ -42,14 +42,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
 	box-shadow: inset 0px 6px 22px -5px rgba(134,36,2,1), 0px 4px 8px 0px rgba(17,17,17,1);
-   background-color: #FF9F1C;
+   background-color: #1cf0ff;
    border:none;
 	color: #222;
 	border-radius:0;
 	margin:12px;
 }
 header h1 {
-	text-shadow: -1px 0 1px #000, 1px 0 1px #ffc16d;
+	text-shadow: -1px 0 1px #000, 1px 0 1px #6df5ff;
 	font-size: 1.6em;
 	color: #222;
 }
