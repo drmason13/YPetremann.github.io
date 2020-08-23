@@ -1,4 +1,36 @@
-theme: jekyll-theme-modernist
+# Site settings
 title: Alternative Friday Factorio Fan Facts
-description: Put a description here
-excerpt_separator: <!--more-->
+description: >-
+  This is an awesome fan facts site.
+url: "https://ypetremann.github.io"
+author:
+  name: "TODO"
+  email: "TODO"
+  url: "TODO"
+
+# Build settings
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 10
+paginate_path: /page:num/
+
+# baseurl: "/"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# theme: minima
+excerpt_separator: "<!--more-->"
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
